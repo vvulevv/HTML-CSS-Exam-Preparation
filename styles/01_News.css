@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 330px;
+}
+.image, .main-text, .date, .secondary-text {
+    display: block;
+    float:left;
+}
+.main-text {
+    font-size: 1.2rem;
+    width: 185px;
+    margin-top: 0;
+}
+.date {
+    margin-top: -8px;
+    font-weight: bold;
+    color: #979797;
+}
+.secondary-text {
+    width: 190px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+.image {
+    border: 1px solid #000;
+    padding: 1px;
+}
+.main-text, .secondary-text, .date {
+    padding-left: 5px;
+}
+.main-text  a {
+    text-decoration: none;
+    color: #000;
+}
+.main-text a:hover {
+    text-decoration: underline;
+    color: #525252;
+}
+.article::after {
+    display: block;
+    content: "";
+    zoom: 1;
+    clear: both;
+ }
+.article {
+    margin: 3px 0;
+    padding: 3px 0;
+}
+.article:last-child {
+    border: none;
+}
+hr {
+    border: none;
+    border-bottom: 1px dashed #979797;
+    width: 88%;
+    margin-left: 0;
+}
