@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link href="styles/03_Contact-Form.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <form>
+            <input
+                type="text"
+                name="username"
+                placeholder="Name"
+                required
+                pattern="\w+"/>
+            <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required/>
+            <textarea
+                    name="comment"
+                    placeholder="Comment"
+                    required></textarea>
+            <input
+                type="submit"
+                name="send"
+                value="Send" />
+        </form>
+    </div>
+</body>
+</html>
